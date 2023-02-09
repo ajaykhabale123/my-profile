@@ -2,12 +2,37 @@
 <html>
 <head>   
     <title> Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <style>
+    h2{
+        font-family: 'Playfair Display', serif;
+        color: rgb(7, 92, 228);
+        background-color: burlywood;
+    }
+    label{
+        color:crimson;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    input[type="text"]{
+                color: chocolate;
+                border-radius: 10px;
+                border-color:crimson;
+            }
+      input[type="number"]{
+        border-radius: 10px;
+        color: chocolate;
+        border-color: crimson;
+      }
+    </style>
 </head>
 <!-- CDN link -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body>
-    <fieldset style="width: 300px;">
-        <legend><span> Contact Us </span></legend>
+   
     <h2><i><u>Contact Us</u> </i> </h2>
     <form>
         <table>
@@ -26,7 +51,7 @@
                 </tr>
                 <tr>
                     <td><label>Enquiry:</label></td>
-                    <td><textarea  cols="40" rows="5"></textarea></td>
+                    <td><textarea  cols="50" rows="5"></textarea></td>
                 </tr>
                 <tr>
                     <td><button type="submit">Submit</button></td>
@@ -35,7 +60,5 @@
             </tbody>
         </table>
     </form>
-   
-    </fieldset>
 </body>
 </html>
