@@ -7,26 +7,65 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <style>
     h2{
+        width: 450px;
+        border-style: groove;
+        border-radius: 10px;
+        border-color: black;
         font-family: 'Playfair Display', serif;
-        color: rgb(7, 92, 228);
-        background-color: burlywood;
+        color: crimson;
+        background-color:lavender;
+       
+        text-align: center;
     }
     label{
-        color:crimson;
-        font-size: large;
-        font-family: Arial, Helvetica, sans-serif;
-
+        color:red;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
     }
-    input[type="text"]{
-                color: chocolate;
-                border-radius: 10px;
-                border-color:crimson;
+    /* input[type="text"]{
+        border-radius: 15px;
+        color: blue;
+        background-color: rgb(155, 248, 248);
+        font-size: large;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
             }
       input[type="number"]{
-        border-radius: 10px;
-        color: chocolate;
-        border-color: crimson;
+        border-radius: 15px;
+        color: blue;
+        background-color: rgb(155, 248, 248);
+        font-size: large;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+      } */
+      .input{
+        border-radius: 15px;
+        color: blue;
+        background-color: rgb(155, 248, 248);
+        font-size: large;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
       }
+      textarea{
+        border-style: solid;
+        border-radius: 15px;
+        color: blue;
+        background-color: rgb(155, 248, 248);
+        font-size: large;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      button{
+        color: red;
+        background-color: bisque;
+        border-radius: 10px;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      body{
+      background-color: bisque;
+    }
     </style>
 </head>
 <!-- CDN link -->
@@ -39,19 +78,19 @@
             <tbody>
                 <tr>
                     <td><label>Full Name: </label></td>
-                    <td><input type="text" maxlength="40" placeholder="Max Character length=40" required autofocus></td>
+                    <td><input class="input" type="text" maxlength="40" placeholder="Max Character length=40" required autofocus></td>
                 </tr>
                 <tr>
                     <td><label>Mobile No:</label></td>
-                    <td><input type="number" maxlength="10" required></td>
+                    <td><input class="input" type="number" maxlength="10" required></td>
                 </tr>
                 <tr>
                     <td><label>Email:</label></td>
-                    <td><input type="email" required placeholder="Ex.abc@gmail.com"></td>
+                    <td ><input class="input" type="email" required placeholder="Ex.abc@gmail.com"></td>
                 </tr>
                 <tr>
                     <td><label>Enquiry:</label></td>
-                    <td><textarea  cols="50" rows="5"></textarea></td>
+                    <td><textarea  cols="40" rows="5"></textarea></td>
                 </tr>
                 <tr>
                     <td><button type="submit">Submit</button></td>

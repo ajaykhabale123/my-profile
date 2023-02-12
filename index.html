@@ -4,10 +4,15 @@
     <title>Index</title>
     <style>
         header{
+            border: 2px solid;
+            
             color: rgb(104, 27, 5);
             background-color: rgb(246, 237, 166);
-            padding: 5px;
-            margin-bottom: 1px;
+            padding: 8px;
+            
+        }
+        .head{
+        padding-right: 15px;
         }
        .navigation{
         padding-right: 20px;
@@ -17,15 +22,19 @@
         border: 2px solid;
         border-color: crimson;
         background-color: aqua;
-        padding: 5px;
+        padding: 10px;
+        font-weight: bolder;
        }
        footer{
+        border: 2px solid;
+        border-color: black;
         background-color: aqua;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-size: large;
-        padding: 5px;
+        padding:8px;
         color: brown;
        }
+   
         
     </style>
     <!-- CDN link -->
@@ -34,9 +43,9 @@
 
 <body>
     <header>
-        <i class="fa fa-user fa-lg" aria-hidden="true"></i> &nbsp; <strong> Mohit Sharma</strong> &nbsp;&nbsp;
-        <i class="fa fa-phone-square fa-lg" aria-hidden="true"></i> &nbsp; <strong> 9876 5432 10 </strong> &nbsp;&nbsp;
-        <i class="fa fa-envelope fa-lg" aria-hidden="true"></i> &nbsp; <strong> mohit_sharma@gmail.com </strong>
+        <i class="fa fa-user fa-lg" aria-hidden="true"></i> <strong class="head"> Mohit Sharma</strong>
+        <i class="fa fa-phone-square fa-lg" aria-hidden="true"></i>  <strong class="head"> 9876 5432 10 </strong>
+        <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>  <strong class="head"> mohit_sharma@gmail.com </strong>
     </header>
    <br>
     <nav >
@@ -48,17 +57,17 @@
        
     </nav>
     <br>
-    <iframe width="1050px" height="550px" name="myFrame" src="home.html">
+    <iframe width="100%" height="550px" name="myFrame" src="home.html">
     </iframe>
 
-    <br><br>
+    <br>
     <footer>
-        <strong>Follow Me: &nbsp; &nbsp; </strong>
-        <a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a> &nbsp;&nbsp;
-        <a href= "https://www.instagram.com/" target="_blank"> <i class="fa fa-instagram fa-lg" aria-hidden="true"></i> </a> &nbsp;&nbsp;
-        <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a> &nbsp;&nbsp;
-        <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a> &nbsp;&nbsp;
-        <a href="https://www.google.com/" target="_blank"><i class="fa fa-google fa-lg" aria-hidden="true"></i></a> &nbsp;&nbsp;
+        <strong>Follow Me:  </strong>
+        <a class="head" href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
+        <a class="head" href= "https://www.instagram.com/" target="_blank"> <i class="fa fa-instagram fa-lg" aria-hidden="true"></i> </a> 
+        <a class="head" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a> 
+        <a class="head" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a> 
+        <a class="head" href="https://www.google.com/" target="_blank"><i class="fa fa-google fa-lg" aria-hidden="true"></i></a> 
         
     </footer>
 </body>
